@@ -1,0 +1,54 @@
+/*ENCABEZADO*/
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+}
+
+@import 'Header';
+@import 'footer';
+@import 'galeria';
+
+/*slider imagenes*/
+
+.carousel-inner {
+    max-height: 39rem;
+}
+
+
+/*media queries pantalla sm*/
+
+@media (max-width:768px) {
+    #intro,
+    #tienda {
+        width: 90% !important;
+    }
+}
+
+.servicio-fila {
+    width: 100% !important;
+    text-align: center;
+}
+
+
+/*media queries pantalla extra-sm*/
+
+@media(max-width:576px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+
+/*Contactos formulario*/
+
+#contenedor-formulario {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: cyan;
+    border-radius: 5px;
+    max-width: 500px;
+}
