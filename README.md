@@ -1,5 +1,4 @@
 <h1 align="center">Hi 👋, I'm Mila Galea</h1>
-<h3 align="center">A new frontend developer</h3>
 
 - 🌱 I’m currently learning **en coderhouse**
 
